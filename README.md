@@ -13,6 +13,7 @@ Commands:
     address     Prints the address of the device.
     connect     Attempts to connect the device.
     disconnect  Attempts to disconnect the device.
+    status      Prints whether the device is connected or not.
 
 The `device address` can have dashes, colons, or pretty much any other separators you can imagine.
 ```
