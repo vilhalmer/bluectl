@@ -91,5 +91,9 @@ int main(int argc, char const * argv[]) {
         return disconnect(device);
     }
 
+    if ([command isEqualToString:@"status"]) {
+        NSPrint(@"%@", [device isConnected] ? @"Connected" : @"Disconnected");
+    }
+
     return 0;
 }
