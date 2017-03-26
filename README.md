@@ -18,3 +18,7 @@ The `device address` can have dashes, colons, or pretty much any other separator
 ```
 
 Running `bluectl` with no arguments will list all paired devices and their addresses. Running it with a name or address, but no command, will dump the entire text representation of the resulting IOBluetoothDevice object.
+
+### Building
+
+`clang -o bluectl bluectl.m -framework foundation -framework iobluetooth`
