@@ -76,11 +76,11 @@ int main(int argc, char const * argv[]) {
     }
 
     if ([command isEqualToString:@"name"]) {
-        NSPrint([device name]);
+        NSPrint(@"%@", [device name]);
     }
 
     if ([command isEqualToString:@"address"]) {
-        NSPrint([device addressString]);
+        NSPrint(@"%@", [device addressString]);
     }
 
     if ([command isEqualToString:@"connect"]) {
